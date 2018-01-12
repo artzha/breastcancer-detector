@@ -15,13 +15,12 @@ The dataset consists of 32 relevant features for each diagnoses as well as if it
 
 ![network structure](https://github.com/KingArthurZ3/breastcancer-detector/blob/master/rsc/Diagnosis-Distribution.png  "network_structure")
 
-Looking at malignant v benign distribution, we have more benign tumor diagnoses than malignant diagnoses.
-This could potentially skew our model towards benign evaluations. Therefore, it is important to select a regression model
-that minimizes this skewing.
+Looking at the malignant v benign distribution, we have more benign tumor than malignant diagnoses.This could potentially
+skew our model towards benign evaluations. Therefore, it is important to select a regression model that minimizes this skewing.
 
 ![network structure](https://github.com/KingArthurZ3/breastcancer-detector/blob/master/rsc/feature-comparison.png  "network_structure")
 
-I also plotted the other features on various scatterplots to look for any abnormalities or potentially dangerous outliers.
+I also plotted the other features onto various scatterplots to look for any abnormalities or potentially dangerous outliers.
 Looking at the data, it seems like all of the features are relatively consistent with each other. Therefore, I don't
 need to specially adjust my dataset for these features.
 
