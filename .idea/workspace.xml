@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="972c8ccf-fb06-4f4d-bab9-799978072ec3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Diagnosis-Distribution.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Logistic-Stats.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/RandomForest-11fet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/RandomForest-5fet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/feature-comparison.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/feature-weights.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/training-data.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rsc/feature-analysis.png" afterPath="$PROJECT_DIR$/rsc/feature-analysis.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainDetector.py" afterPath="$PROJECT_DIR$/mainDetector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tfDetector.py" afterPath="$PROJECT_DIR$/tfDetector.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +33,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -499,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
