@@ -11,18 +11,22 @@ from sklearn.model_selection import KFold
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
 
+cancerData = pd.read_csv('data/data.csv')
+
 def input_fn(data_file, num_epochs, shuffle, batch_size):
   """Generate an input function for the Estimator."""
   assert tf.gfile.Exists(data_file), (
       '%s not found. Please make sure you have either run data_download.py or '
       'set both arguments --train_data and --test_data.' % data_file)
 
+  feature_dict = list(cancerData.columns.values)
+
   def parse_csv(value):
     print('Parsing', data_file)
-    columns = tf.decode_csv(value, record_defaults=_CSV_COLUMN_DEFAULTS)
-    features = dict(zip(_CSV_COLUMNS, columns))
+    columns = tf.decode_csv(value, record_defaults=feature_dict)
+    features = dict(zip(feature_dict, columns))
     labels = features.pop('diagnosis')
-    return features, tf.equal(labels, '>50K')
+    return features, tf.equal(features, labels)
 
   # Extract lines from input files using the Dataset API.
   dataset = tf.data.TextLineDataset(data_file)
@@ -41,3 +45,4 @@ def input_fn(data_file, num_epochs, shuffle, batch_size):
   features, labels = iterator.get_next()
   return features, labels
 
+input_fn('data/data.csv', 1, False, batch_size=1)
