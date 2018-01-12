@@ -8,7 +8,7 @@ dataset from UCI's machine learning repository.
 
 ![network structure](https://github.com/KingArthurZ3/breastcancer-detector/blob/master/rsc/training-data.png "network_structure")
 
-Upon The dataset consists of 32 relevant features for each diagnoses as well as if it was malignant of benign. There are
+The dataset consists of 32 relevant features for each diagnoses as well as if it was malignant of benign. There are
 569 diagnoses in this dataset, which is less information that I would like to have.
 
 ## Dataset Analysis
